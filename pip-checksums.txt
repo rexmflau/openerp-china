@@ -1,0 +1,165 @@
+# sha256: SFnyVScA6XRijRzfqyfJjW-lVEwR4tPuknkVRuhXWB4
+argparse
+
+# sha256: qX-01msBKztQzmhLomNPKAZzIIgv7FnhJnUEdnbDIrI
+Babel
+
+# sha256: Z2hB85Q0lWKRQgIb5JRNBIAPLALUs9fFpJR3dFNvHv4
+cffi
+
+# sha256: 5yONKEYWookiX5E3dUL9zlGp_nCC7_-GVnTjSlf4wzg
+cryptography
+
+# sha256: BPnNc6Ct_qjaeTzxKypK72zHFbTdeEVEWpzkw-PRhsI
+decorator
+
+# sha256: ZQvRKlY9GImB7npJF8k-v2G3wI5O27AgiC1NftKM-Gw
+docutils
+
+# sha256: u5pqfH8DzdIAaAN11jgNzHG_jdFzors3FY-YumIn340
+feedparser
+
+# sha256: 4wCsAr5GOtxMvHuPQwRj1HfWdi677b1ssh-qos8dGUo
+gdata
+
+# sha256: TDVb2ST3Zmi7zMfpJ0H8Zed4AwbuAASiDhXE5W6SItk
+Genshi
+
+# sha256: bv17Da7sVbZs82fhi78HGCzDCtoqtyhVIcgZoNjUGxQ
+gevent
+
+# sha256: qts4T5pu1t_0PbvYr2p2hr4l_LTppYYJ-gy2sEhRl24
+graphviz
+
+# sha256: tioY6UZ9M039jgpmVLF-cf3c2J5GIUV5bx2acjFRC2I
+greenlet
+
+# sha256: hLSfvqAolqEo2tyHP5DEh40qqBzDMWK_cZBapA7NoEk
+jcconv
+
+# sha256: Ntlsd3EqAMdYcrtBkPedHKaA4JAie_8EOpWF4J047Y8
+Jinja2
+
+# sha256: Hap1mynXQDRaa4kW6cJKD21V9ccYBymLnIrAXVWMock
+lxml
+
+# sha256: 7AMmmlgl5s5A6esms0EdvUQVY2izh7BKt7xPbb1VlJo
+Mako
+
+# sha256: ZeKoDDxNllfPRKlNg4Jb_gtLtnYNl2ar2JUuS4VBtOI
+MarkupSafe
+
+# sha256: X9JeS6mMZDAn-eFVXpCgDQx7Rt-q4pcdgqVBVLaTpm4
+mercurial
+
+# sha256: zF0-kM2nlGrOONi7S0i7Ner9Y2rhA3Ly9wVICFox_FA
+mock
+
+# sha256: gW8PUbkRnPYZSSydC79KwD8ZQ7xGSKBj36KmUir1h3E
+passlib
+
+# sha256: g6CDdrL6BjTktQLEb15mcVSYY2uaKb7imAdjNiz2IoY
+Pillow
+
+# sha256: -8E1H_7fCcp1YEKHWIRaiNZIuXMLY86eXfU6fInwOaQ
+pip
+
+# sha256: 2RRODBGZO1cJVVVlozCUrKyxu6DwLOiScPzK21PEw_s
+pip
+
+# sha256: bi5TAi8ordnT01qkEeB_n-UAwdF4PSbgRE15JMJB5kE
+psutil
+
+# sha256: ixPtc0aGGUxAKyINWlNDNEczL4_xvfUQUyVvB1TeIdM
+psycogreen
+
+# sha256: feMJa3RobEG1jBSgilB-WYeo1gypVYX7W_QzixAKO8A
+psycopg2
+
+# sha256: JeM0lRxw2awhroCl1GUiLezU5U-pyOTQ06NMhcFHQJs
+pycparser
+
+# sha256: RCsjDPbc64j5MOp_ABrCgteIWDIbgqq0KHJOY-zUF-M
+pydot
+
+# sha256: JpRuUDPjY_J_B4z4Hq7AGpIAZXIsxrNFrpXQb4kX9fE
+pyjon.utils
+
+# sha256: 7UcGsXnS4KCmFC3pbmUWvLEJkcfYBnJ6zVVA5MrrIP8
+pyOpenSSL
+
+# sha256: KERo7ZiOUfYTxpoGGpQ96jyqfzRBpswGfqOTlFJZmQ0
+pyparsing
+
+# sha256: CmpvDhL_1k3XRIY5xRJHC57f3mWAkiBOMJJCaM_upp8
+pyPdf
+
+# sha256: 2WD-aPz4bHQFIr0si9yih1uYGokNd2NwnOBuL8IKYKc
+pyserial
+
+# sha256: xnl06OZ_3h2B9RQZyQQ9z09zt98QuOe1vm0AHV8aRbE
+python-dateutil
+
+# sha256: _5jsrWl_Pm65hM3tPAU0TqfQuVRIi-sCI08LfSwpO7c
+python-ldap
+
+# sha256: SLbh00n_eBeVoSe41H12GZcY7lkNas-z70xG6YWg8-g
+python-openid
+
+# sha256: NdFW7LYWOkTNAymSQ2zyEyB8Sibt289RmjfwZ0skMNc
+python-stdnum
+
+# sha256: VDjXSekjyRR0H-KkELUoq-JwUwAPv4eLxDdCjQiuCrE
+pytz
+
+# sha256: nUMu_prKPbEAovhnzyk8YlCPD8s-uMcpXBcxodUqh-8
+pyusb
+
+# sha256: GhV_pdhjlDvIbs0aZUK4jiTe8JPgHWckHqCkQUpXgd8
+PyWebDAV
+
+# sha256: 6Ayg4sf0j0kMUrSEFblmMZ-HjVqhREEKsBIh-D6jPVA
+PyYAML
+
+# sha256: RCMLrsDA6VmHOXpNIlzOFW6Y56mqrHmPHpg26rtyHPs
+qrcode
+
+# sha256: 9hv_OmmXJnNJBymkOFlwkQv9tEXsVKvWFr8lxcFOkqs
+reportlab
+
+# sha256: NkiAJJLpVf_rKPbauGStcUBZ9UOL9nmNgvnUd8ZmrKM
+requests
+
+# sha256: 3B_1VY0OTdjEIqRjk1D2dI8IEc-uXwqiGUAfOjUwaiA
+setuptools
+
+# sha256: m3JPbch04eQEdNhCv_vAN2l9Cgdj3q9EUD3S2WqfIGE
+simplejson
+
+# sha256: M4j8GiynpdQmG00ePYtzQsv0vxz7NwIxHGCTIUMs7Xg
+six
+
+# sha256: F-WuFn-iiL-a0nOEiqy0J12Hdsi3T8sbUDQsHhJpWic
+suds
+
+# sha256: idUDDjRaoAgD-YN4B3IU09APX_FfgCv5HmmxobYMV4g
+unittest2
+
+# sha256: LQyg94BgdCy0FHHIcuH5DkpYmtY2Pop_prOiCvFOo2o
+vatnumber
+
+# sha256: 5VsyyAhYK9_fPMjRDyOtuYGMfsW77w24wTyrBbkTico
+vobject
+
+# sha256: 1ochcvx9fUoX4v4qPXxP6lY5PwOcF2QkZwfCwJ0UT44
+Werkzeug
+
+# sha256: U6i0fT203tjbQaHpu7d6FiUHTnpIeb0Ov5fWywFXY4M
+wheel
+
+# sha256: FQ_kPx_daBIOoKypV_Jq-8NT-6hy11jBOYxcA5-KMvo
+wsgiref
+
+# sha256: JaWaAQ7J-Yx5iTpa40VV99lBMNqxex3ev8su8xbbHzw
+xlwt
+

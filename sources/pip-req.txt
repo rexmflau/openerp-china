@@ -1,0 +1,55 @@
+# system
+pip
+wheel
+# xcg addons
+genshi
+graphviz
+pywebdav<0.9.8
+pyjon.utils
+pyopenssl
+cffi
+cryptography
+suds
+# odoo official
+Babel
+Jinja2
+Mako
+MarkupSafe
+Pillow
+PyYAML
+## see bug https://bugs.launchpad.net/openerp-web/+bug/1243773
+Werkzeug<0.9
+##
+argparse
+decorator
+docutils
+feedparser
+gdata
+gevent
+greenlet
+jcconv
+lxml
+mock
+passlib
+psutil
+psycogreen
+psycopg2
+pyPdf
+pydot
+pyparsing
+pyserial
+python-dateutil
+python-ldap
+python-openid
+pytz
+pyusb
+qrcode
+reportlab
+requests
+simplejson
+six
+unittest2
+vatnumber
+vobject
+wsgiref
+xlwt
