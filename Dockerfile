@@ -59,20 +59,17 @@ RUN adduser --home=/opt/odoo --disabled-password --gecos "" --shell=/bin/bash od
 # /!\ carefully select the source archive depending on the version
 #ADD https://wheelhouse.openerp-experts.net/odoo/odoo9.tgz /opt/odoo/odoo.tgz
 #ADD openerp-china.tar.gz /opt/odoo/
-RUN git clone http://git.oschina.net/osbzr/openerp-china.git /opt/odoo/temp
-RUN mv -f /opt/odoo/tmp/ /opt/odoo/
+RUN git clone http://git.oschina.net/osbzr/openerp-china.git /opt/odoo/sources/odoo
 
 #RUN echo "84cfce9dd60ac40cfcbf9d7cc1f3eaf1eb2d1f88d5f9b6bcdfea70ae6573c2bb /opt/odoo/odoo.tgz" | sha256sum -c -
-RUN chown odoo:odoo /opt/odoo/openerp-china
-op
+RUN chown odoo:odoo /opt/odoo/sources/odoo
+
 # changing user is required by openerp which won't start with root
 # makes the container more unlikely to be unwillingly changed in interactive mode
 USER odoo
 
-#RUN /bin/bash -c "mkdir -p /opt/odoo/{bin,etc,sources/odoo,additional_addons,data}" && \
-
+RUN /bin/bash -c "mkdir -p /opt/odoo/{bin,etc,additional_addons,data}" 
 RUN /bin/bash -c "mkdir -p /opt/odoo/var/{run,log,egg-cache}"
-RUN /bin/bash -c "mkdir -p /opt/odoo/{bin,etc,additional_addons,data}"
 
 # Execution environment
 USER 0
