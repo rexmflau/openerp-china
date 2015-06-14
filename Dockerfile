@@ -14,7 +14,8 @@ RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys B97B0AFCAA1A47F044F
 # install dependencies as distrib packages when system bindings are required
 # some of them extend the basic odoo requirements for a better "apps" compatibility
 # most dependencies are distributed as wheel packages at the next step
-RUN echo "deb http://apt.postgresql.org/pub/repos/apt/ trusty-pgdg main" > /etc/apt/sources.list.d/pgdg.list && \
+#RUN echo "deb http://apt.postgresql.org/pub/repos/apt/ trusty-pgdg main" > /etc/apt/sources.list.d/pgdg.list && \
+RUN sed -i 's/archive.ubuntu.com/mirrors.163.com/' /etc/apt/sources.list && \
         apt-get update && \
         apt-get -yq install \
 		    git \
@@ -27,7 +28,11 @@ RUN echo "deb http://apt.postgresql.org/pub/repos/apt/ trusty-pgdg main" > /etc/
                 python-pychart python-libxslt1 xfonts-base xfonts-75dpi \
                 libxrender1 libxext6 fontconfig \
                 python-zsi \
-                python-lasso
+                python-lasso \
+				ttf-wqy-zenhei ttf-wqy-microhei \
+				nodejs npm \
+				&& npm install -g less less-plugin-clean-css \
+				&& ln -s /usr/bin/nodejs /usr/bin/node 
 
 ADD pip-checksums.txt /opt/sources/pip-checksums.txt
 # use wheels from our public wheelhouse for proper versions of listed packages
