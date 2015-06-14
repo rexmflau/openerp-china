@@ -59,7 +59,9 @@ RUN adduser --home=/opt/odoo --disabled-password --gecos "" --shell=/bin/bash od
 # /!\ carefully select the source archive depending on the version
 #ADD https://wheelhouse.openerp-experts.net/odoo/odoo9.tgz /opt/odoo/odoo.tgz
 #ADD openerp-china.tar.gz /opt/odoo/
-RUN git clone http://git.oschina.net/osbzr/openerp-china.git /opt/odoo/
+RUN git clone http://git.oschina.net/osbzr/openerp-china.git /opt/odoo/temp
+RUN mv -f /opt/odoo/tmp/ /opt/odoo/
+
 #RUN echo "84cfce9dd60ac40cfcbf9d7cc1f3eaf1eb2d1f88d5f9b6bcdfea70ae6573c2bb /opt/odoo/odoo.tgz" | sha256sum -c -
 RUN chown odoo:odoo /opt/odoo/openerp-china
 op
