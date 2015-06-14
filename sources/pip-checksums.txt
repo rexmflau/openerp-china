@@ -22,7 +22,7 @@ feedparser
 # sha256: 4wCsAr5GOtxMvHuPQwRj1HfWdi677b1ssh-qos8dGUo
 gdata
 
-
+# sha256: DZ4lyNajDpSMqZ9AC1v1PG_AcQCxcEYlkO82BeKKO2Y
 Genshi
 
 # sha256: bv17Da7sVbZs82fhi78HGCzDCtoqtyhVIcgZoNjUGxQ
@@ -40,7 +40,7 @@ jcconv
 # sha256: Ntlsd3EqAMdYcrtBkPedHKaA4JAie_8EOpWF4J047Y8
 Jinja2
 
-
+# sha256: ZcVkpi7qsI_TZAdPvE8RloneONnWohzQ9hPAqaCBLvw
 lxml
 
 # sha256: 7AMmmlgl5s5A6esms0EdvUQVY2izh7BKt7xPbb1VlJo
