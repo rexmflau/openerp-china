@@ -34,7 +34,7 @@ RUN sed -i 's/archive.ubuntu.com/mirrors.163.com/' /etc/apt/sources.list && \
 				&& npm install -g less less-plugin-clean-css \
 				&& ln -s /usr/bin/nodejs /usr/bin/node 
 
-ADD pip-checksums.txt /opt/sources/pip-checksums.txt
+ADD sources/pip-checksums.txt /opt/sources/pip-checksums.txt
 # use wheels from our public wheelhouse for proper versions of listed packages
 # as described in sourced pip-req.txt
 # these are python dependencies for odoo and "apps" as precompiled wheel packages
